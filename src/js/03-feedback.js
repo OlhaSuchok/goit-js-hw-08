@@ -77,6 +77,6 @@ function populateTexttArea() {
 
   if (savedData) {
     inputEl.value = parsedData.email;
-    textareaEl.value = parsedData.name;
+    textareaEl.value = parsedData.message;
   }
 }
